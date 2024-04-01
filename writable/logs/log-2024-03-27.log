@@ -1,0 +1,33 @@
+ERROR - 2024-03-27 15:18:33 --> mysqli_sql_exception: Can't create table `crud_data`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\codenighter\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(65): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\codenighter\system\Database\MigrationRunner.php(865): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\codenighter\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\codenighter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\codenighter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\codenighter\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\codenighter\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-03-27 15:26:50 --> mysqli_sql_exception: Can't create table `crud_data`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\codenighter\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(65): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\codenighter\system\Database\MigrationRunner.php(865): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\codenighter\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\codenighter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\codenighter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\codenighter\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\codenighter\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2024-03-27 15:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 15:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 15:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 15:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 15:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

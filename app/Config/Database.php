@@ -52,7 +52,7 @@ class Database extends Config
     public array $tests = [
         'DSN'         => '',
         'hostname'    => '127.0.0.1',
-        'username'    => '',
+        'username'    => 'root',
         'password'    => '',
         'database'    => 'crud_data',
         'DBDriver'    => 'SQLite3',

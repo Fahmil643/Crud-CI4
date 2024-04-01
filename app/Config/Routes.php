@@ -16,7 +16,5 @@ $routes->get('/delete_data_kantor/(:any)', 'Mahasiswa::delete_data_kantor/$1');
 $routes->get('/logout', 'Mahasiswa::logout');
 
 
-
-// register Data
-$routes->get('/register', 'Register::index');
-$routes->post('/register/process', 'Register::process');
+$routes->get('news/index', 'News::index', ['filter' => 'role:administrator, user']);
+$routes->get('news/add', 'News::add', ['filter' => 'role:administrator']);
