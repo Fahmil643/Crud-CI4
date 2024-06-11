@@ -1,0 +1,1086 @@
+INFO - 2024-05-04 13:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:50:13 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codenighter\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(941): App\Controllers\Mahasiswa->index()
+#8 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-04 13:50:13 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+CRITICAL - 2024-05-04 13:50:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `data`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `data`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+CRITICAL - 2024-05-04 13:50:13 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `data`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `data`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `data`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:51:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:51:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:51:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:51:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:52:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:52:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:52:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->login()
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->login()
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:52:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\CodeIgniter.php(941): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:52:41 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:52:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data', 'before')
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:52:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data_table', 'before')
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data_table', 'before')
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:52:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data_table', 'before')
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-04 13:53:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud_data', 3306, '', 0)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data_table', 'before')
+#11 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codenighter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codenighter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codenighter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codenighter\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codenighter\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+#5 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+#6 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\codenighter\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\codenighter\system\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data_table', 'before')
+#10 C:\xampp\htdocs\codenighter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codenighter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codenighter\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-05-04 13:53:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, '15')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('15')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(182): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('data_table', 'before')
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 13:54:42 --> ErrorException: Undefined variable $kelas
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 13:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 14:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 14:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:05:47 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:06:58 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:08:33 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:09:15 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:10:27 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:11:04 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:12:46 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:14:22 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:14:25 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:14:45 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:16:11 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:22:09 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:23:37 --> ErrorException: Undefined variable $model_table
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_table', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:25:31 --> ErrorException: Undefined variable $model_table
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_table', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:26:02 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:27:07 --> ErrorException: Undefined variable $model_aji
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_aji', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:27:58 --> ErrorException: Undefined variable $model_aji
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_aji', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:28:10 --> ErrorException: Undefined variable $model_aji
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_aji', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:40:53 --> ErrorException: Undefined variable $model_aji
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_aji', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:44:12 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:45:28 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:45:47 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:47:11 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:48:58 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:52:39 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:52:42 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 27.
+ 1 APPPATH\Views\table\data_table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 14:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:55:44 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:55:56 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:55:57 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:56:28 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 14:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 14:56:41 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:01:04 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:03:45 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:13:16 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:19:44 --> ErrorException: Undefined variable $tab
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tab', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(27): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:36:38 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:36:57 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 15:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:53:24 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:55:36 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:58:12 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:58:14 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 15:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 15:58:15 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 16:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-04 16:04:34 --> ErrorException: Undefined variable $model_data
+in APPPATH\Views\table\data_table.php on line 26.
+ 1 APPPATH\Views\table\data_table.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\table\\data_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('table/data_table', [], true)
+ 5 APPPATH\Controllers\Table2.php(31): view('table/data_table')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Table2->data_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table2))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-05-04 16:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 16:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 16:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-04 16:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

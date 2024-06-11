@@ -1,0 +1,426 @@
+INFO - 2024-06-03 03:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 04:36:04 --> ErrorException: Undefined variable $products
+in APPPATH\Views\data\lihat_data.php on line 16.
+ 1 APPPATH\Views\data\lihat_data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(38): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 04:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 04:59:47 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\product_list.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product_list', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(17): view('product_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->views()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:03:48 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\product_list.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product_list', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(17): view('product_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->views()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:03:50 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\product_list.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product_list', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(17): view('product_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->views()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:04:32 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\product_list.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product_list', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(17): view('product_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->views()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:06:20 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\product\product_list.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product/product_list', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(17): view('product/product_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->views()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:16:11 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(22): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:16:16 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(22): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:23:11 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:24:36 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 22.
+ 1 APPPATH\Views\data\lihat_data.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:25:51 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 20.
+ 1 APPPATH\Views\data\lihat_data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:26:09 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 22.
+ 1 APPPATH\Views\data\lihat_data.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:28:51 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:29:44 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:29:45 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:32:21 --> ErrorException: Undefined variable $data_kelas
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:34:06 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:34:09 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:34:37 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 19.
+ 1 APPPATH\Views\data\lihat_data.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:38:50 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 18.
+ 1 APPPATH\Views\data\lihat_data.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:38:53 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 18.
+ 1 APPPATH\Views\data\lihat_data.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:38:58 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 18.
+ 1 APPPATH\Views\data\lihat_data.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:47:44 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:48:57 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:54:16 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 05:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 05:54:19 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 22:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 22:04:45 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 22:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 22:10:05 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 22:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 22:12:19 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 22:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 22:13:04 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 22:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 22:13:30 --> ErrorException: Undefined variable $lihat_data
+in APPPATH\Views\data\lihat_data.php on line 17.
+ 1 APPPATH\Views\data\lihat_data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lihat_data', 'C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codenighter\\app\\Views\\data\\lihat_data.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('data/lihat_data', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(28): view('data/lihat_data')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mahasiswa->lihat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codenighter\\public\\index.php')
+INFO - 2024-06-03 22:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 22:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

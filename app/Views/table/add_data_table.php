@@ -11,38 +11,20 @@
 <body>
     <div class="container border shadow col-md-6 mt-3">
         <h3 class="text-center">TAMBAH DATA</h3>
-        <form action="<?= base_url('proses_add_kantor') ?>" method="POST">
+        <form action="<?= base_url('proses_data_table') ?>" method="POST">
+            <?= csrf_field() ?>
             <!-- tambah data -->
             <div class="mb-3">
-                <label for="kode" class="form-label">Kode Kelas</label>
-                <input type="text" class="form-control" id="kode" name="kode" placeholder="Masukan Kode" required="" autocomplete="off">
+                <label for="kode" class="form-label">Kode Prodi</label>
+                <input type="text" class="form-control" id="kode" name="kode_prodi" placeholder="Masukan Kode" required="" autocomplete="off">
             </div>
 
             <div class="mb-3">
-                <label for="nama" class="form-label">Nama Kelas</label>
-                <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan Nik" required="" autocomplete="off">
-            </div>
-
-            <div class="mb-3">
-                <label for="dosen" class="form-label">Dosen Pengajar</label>
-                <input type="text" class="form-control" id="dosen" name="dosen" placeholder="Masukan Alamat" required="" autocomplete="off">
-            </div>
-
-            <div class="mb-3">
-                <label for="studi" class="form-label">Program Studi</label>
-                <input type="text" class="form-control" id="studi" name="studi" placeholder="Masukan Pangkat" required="" autocomplete="off">
-            </div>
-
-            <div class="mb-3">
-                <label for="semester" class="form-label">Semester</label>
-                <input type="text" class="form-control" id="semester" name="semester" placeholder="Masukan Pangkat" required="" autocomplete="off">
+                <label for="nama" class="form-label">Nama Prodi</label>
+                <input type="text" class="form-control" id="nama" name="nama_prodi" placeholder="Masukan Nik" required="" autocomplete="off">
             </div>
 
 
-            <label for="fileUpload">Upload File</label>
-            <input type="file" id="fileUpload" class="form-control mb-3">
-
-            <button id="uploadBtn" class="btn btn-primary">Upload</button>
             <button type="submit" class="btn btn-success" id="simpan">Simpan</button>
             <button type="submit" class="btn btn-secondary" data-bs-dismiss="kantor" id="keluar">Keluar</button>
 
